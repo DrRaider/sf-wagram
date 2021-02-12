@@ -1,0 +1,163 @@
+.resume-item-icon {
+  margin-left: 30px;
+}
+
+.resume__education_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar {
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 0 10px 20px 0 rgb(50 65 141 / 10%);
+}
+
+.navbar.nav__color__change {}
+
+.main-content {
+  margin-top: 30px;
+}
+
+.contact__info_item {
+  height: 430px;
+  background-color: #fff;
+  padding: 20px 40px 40px;
+}
+
+.the-map {
+  height: 400px;
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.modal-content {
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 40px 0 rgb(50 65 141 / 12%);
+}
+
+.modal-header {
+  display: initial;
+}
+
+.modal-btn {
+  padding: 0;
+}
+
+.logo {
+  height: 60px;
+}
+
+.vignette {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.service__slider_item { 
+  height: 475px;
+}
+
+.service-title {
+  margin-bottom: 0!important;
+}
+
+.mail-address {
+  font-size: 15px;
+}
+
+.footer-hire_button {
+  /* margin-bottom: 8px; */
+  color: #fff!important;
+  text-decoration: none!important;
+  display: block;
+  margin-top: 20px;
+
+}
+
+.infos { 
+  font-style: italic;
+  font-size: 12px;
+}
+
+.about-section{
+  width: 90%;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.about_content-thumb .about-svg {
+  left: -75%
+}
+
+.juliette {
+  width: 30%;
+  z-index: 1;
+}
+
+.deborah {
+  width: 30%;
+  transform: scaleX(-1)
+}
+
+.welcome {
+  width: 45%;
+  left: 2.75%;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-button {
+  margin-left: 14px;
+}
+
+.container-navbar {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+@media (min-width: 1200px) {
+  .container-navbar {
+    max-width: 100%;
+  }
+}
+
+* {
+  transition: none!important;
+}
+
+.blog-preview__item-thumb {
+  transition: all .3s ease;
+}
+
+.rdv {
+  margin-right: 8px;
+}
+
+.nav {
+  font-size: 16px;
+}
+
+.blog-preview {
+  padding-top: 150px;
+}
+
+.blog-preview__item {
+  margin-bottom: 200px;
+}
+
+
+.blog-thumb {
+  bottom: auto;
+  top: 155px;
+}
+
+.footer__widget {
+  padding: 100px 0 0 0;
+}
