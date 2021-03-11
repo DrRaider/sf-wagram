@@ -136,6 +136,11 @@
   transition: all .3s ease;
 }
 
+.blog-preview__item-thumb img {
+  object-fit: cover;
+  height: 210px;
+}
+
 .rdv {
   margin-right: 8px;
 }
@@ -160,4 +165,8 @@
 
 .footer__widget {
   padding: 100px 0 0 0;
+}
+
+.footer__widget_logo img {
+  width: 60%;
 }
