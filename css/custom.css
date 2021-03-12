@@ -14,6 +14,52 @@
   box-shadow: 0 10px 20px 0 rgb(50 65 141 / 10%);
 }
 
+@media (max-width: 991px) {
+  .navbar {
+    margin: auto;
+  }
+  .navbar-brand img {
+    width: auto!important;
+  }
+  .resume__education_item {
+    display: inherit;
+  }
+  .resume-item-icon {
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .welcome {
+    width: 100%!important;
+    left: inherit!important;
+  }
+  .sf-picture {
+    visibility: hidden;
+  }
+  .footer__cta {
+    display: inherit;
+    padding: 30px 10px;
+  }
+  .contact__info_item {
+    margin-bottom: 20px; 
+  }
+  .the-map {
+    margin-left: 15px;
+    width: 91%!important;
+  }
+  .service__slider_item {
+    height: 500px!important;
+  }
+  .about {
+    padding-top: 90px;
+  }
+  .about_header h2 {
+    font-size: 2.125rem;
+  }
+  .blog-thumb {
+    width: inherit!important;
+  }
+} 
 .navbar.nav__color__change {}
 
 .main-content {
@@ -153,14 +199,21 @@
   padding-top: 150px;
 }
 
-.blog-preview__item {
-  margin-bottom: 200px;
+.blog-preview__item-content {
+  position: inherit;
+  bottom: inherit;
 }
 
+.blog-preview__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
 
 .blog-thumb {
-  bottom: auto;
-  top: 155px;
+  z-index: 5;
+  margin-top: -40px;
+  width: 310px;
 }
 
 .footer__widget {
